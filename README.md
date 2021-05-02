@@ -10,7 +10,16 @@ https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id
 Step 2) Enter the details in the file .env, present in the same folder
 \
 \
-Step 3) On your terminal run: npm i && pm2 start vaccineNotifier.js
+Step 3) Install node.js
+\
+\
+Step 4) npm i
+\
+\
+Step 5) npm install pm2 -g
+\
+\
+Step 6) On your terminal run: pm2 start vaccineNotifier.js
 \
 \
 To close the app run: pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js
